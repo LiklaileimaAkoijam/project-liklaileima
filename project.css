@@ -1,0 +1,101 @@
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        
+        
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(0,0,0,0.6);
+        color: white;
+        text-align: center;
+        padding: 15px;
+        
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        
+    }
+
+    section {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+    
+         
+        
+    
+        
+        
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.5);
+    }
+
+    p {
+        max-width: 600px;
+        background: rgba(255,255,255,0.8);
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+
+    .btn {
+        margin-top: 15px;
+        background: rgba(255,255,255,0.8);
+        color: #333;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: white;
+        transform: scale(1.05);
+    }
+
+    
+    .loktak {
+        background-image: url('https://media.istockphoto.com/id/1173721337/photo/loktak-lake-imphal-manipur.webp?a=1&b=1&s=612x612&w=0&k=20&c=ous2XOLvvBzOv7g8RI09nINTX2FbWsS9QWjMAuWy06k=');
+    }
+    .kangla {
+        background-image: url('https://media.istockphoto.com/id/999257810/photo/big-twin-animals-statue-at-entrance-of-kangla-fort-imphal.webp?a=1&b=1&s=612x612&w=0&k=20&c=wJTy5pIj5lZI4PQDb4AFAKC_gCyePUX1d9xA2ikdjp0=');
+    }
+    .dzuko {
+        background-image: url('https://media.istockphoto.com/id/1150960688/photo/dzukou-valley-located-at-the-border-of-the-states-of-nagaland-and-manipur-nagaland-india.webp?a=1&b=1&s=612x612&w=0&k=20&c=bSXeNdPdOClAm6IymrXadlxWI7V-maBcqnT2SqGft_g=');
+    }
+    .ukhrul {
+        background-image: url('https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2022/05/Shirui-Lily-the-state-flower-of-Manipur.jpg?fit=1024%2C683&ssl=1');
+    }
+    .ima {
+        background-image: url('http://www.e-pao.org/galleries/images/Festival/Cheiraoba/2021/Shopping_04/Cheiraoba_shopping_2021_11.jpg');
+    }
+
+    footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 1.8rem;
+        }
+    }
